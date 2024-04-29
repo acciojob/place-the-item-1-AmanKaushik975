@@ -1,24 +1,37 @@
-
-/* Your CSS Code here. */
-
 .holder{
-	display:grid;
-	grid-template-rows:repeat(2,100px);
-	grid-template-columns:repeat(2,100px);
+	display:flex;
+	justify-content:space-between;
 	
 }
-.holder .item{
-	width:200px;
+.box3{
+	background-color:green;
+	width:100px;
+	height:100px;
+	font-size:50px
 }
-.item-1{
-		background-color:red;
+.box1{
+	background-color:red;
+	width:100px;
+	height:100px;
+	font-size:50px;
 }
-.item-2{
-		background-color:blue;;
+.box2{
+	background-color:blue;
+	width:100px;
+	height:100px;
+	font-size:50px;
 }
-.item-3{
-		background-color:pink;
+.holder{
+	display:flex;
+     flex-wrap:wrap;
+	justify-content:space-between;
 }
-.item-4{
-		background-color:black;
+.box7{
+	background-color:green;
+	width:100px;
+	height:100px;
+	font-size:50px;
+}
+.container-1{
+	margin-top:50px;
 }
